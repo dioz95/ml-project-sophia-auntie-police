@@ -8,11 +8,11 @@ Git basic tutorial:
 4. Don't forget to run `git pull` everytime you open the project to make sure it updated.
 
 Collaborating with github:
-1. Always make a new branch when you want to add/modify something `git branch [branch-name]`
-2. Add the file if you're sure it works by `git add [file-name]` for specific file or `git add .` for adding all file
-3. Commit changes by `git commit -m [your-message]`
-4. Push to main by `git push --set-upstream origin [branch-name]`
-5. Create pull request in GitHub
-6. Wait someone to approve your pull request, or you can skip if you're very sure of your changes (not recommended)
+1. Always make a new branch when you want to add/modify something `git branch [branch-name]` and `git checkout [branch-name]`
+3. Add the file if you're sure it works by `git add [file-name]` for specific file or `git add .` for adding all file
+4. Commit changes by `git commit -m [your-message]`
+5. Push to main by `git push --set-upstream origin [branch-name]`
+6. Create pull request in GitHub
+7. Wait someone to approve your pull request, or you can skip if you're very sure of your work (not recommended).
 
-**If anyone feels these procedure is too complicated, you can just drag and drop your work inside the notebook folder. I will manage the file organization at the end**
+**If anyone feels these procedure is too complicated, you can just drag and drop your work inside the notebook folder. I will manage the file organization at the end.**
