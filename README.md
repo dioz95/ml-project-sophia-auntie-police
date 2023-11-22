@@ -14,3 +14,5 @@ Collaborating with github:
 4. Push to main by `git push --set-upstream origin [branch-name]`
 5. Create pull request in GitHub
 6. Wait someone to approve your pull request, or you can skip if you're very sure of your changes (not recommended)
+
+**If anyone feels these procedure is too complicated, you can just drag and drop your work inside the notebook folder. I will manage the file organization at the end**
