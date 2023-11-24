@@ -18,4 +18,4 @@ Collaborating with github:
 **If anyone feels these procedure is too complicated, you can just drag and drop your work inside the notebook folder. I will manage the file organization at the end.**
 
 # Update 24/11/2023
-Since I realized that someone found difficulties in loading the data, I provide the data `books.csv` that the alignment has been corrected inside the dataset folder. Feel free to use it and I hope `pd.read_csv()` should work to it.
+Since I realized that someone found difficulties in loading the data, I provide the data `books.csv` that the alignment has been corrected inside the dataset folder. Feel free to use it and I hope `pd.read_csv()` should work to.
