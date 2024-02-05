@@ -15,6 +15,9 @@ print("---------------------------------------")
 print("WELCOME TO BOOK'S RATING PREDICTOR APP")
 print("---------------------------------------")
 
+print("Welcome to book's rating predictor app.")
+print("Please answer these questions to get your predictions of your book's average rating.")
+
 print("\n")
 
 while status_ratings_count == True:
