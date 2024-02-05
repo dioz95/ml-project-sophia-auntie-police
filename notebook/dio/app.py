@@ -19,7 +19,7 @@ print("\n")
 
 while status_ratings_count == True:
     try:
-        ratings_count = int(input("1. How many times you desired your books being rated? "))
+        ratings_count = int(input("1.How many times do you want your books to be rated? "))
         status_ratings_count = False
         
         continue
@@ -30,7 +30,7 @@ print("\n")
         
 while status_num_pages == True:
     try:
-        num_pages = int(input("2. How many pages is your book? "))
+        num_pages = int(input("2. How many pages does your book contain? "))
         status_num_pages = False
     except ValueError as ve:
         print("Value must be numeric")
@@ -39,7 +39,7 @@ print("\n")
 
 while status_text_reviews_count == True:
     try:  
-        text_reviews_count = int(input("3. How many times you desired your books being reviewed? "))
+        text_reviews_count = int(input("3. How many times do you want your books to be reviewed? "))
         status_text_reviews_count = False
     except ValueError as ve:
         print("Value must be numeric")
@@ -55,7 +55,7 @@ while status_language_code == True:
     for index, code in enumerate(language_code_list):
         print(f"{index+1}. {code}")
 
-    language_code = input("")
+    language_code = input("").lower().strip()
 
     if language_code not in language_code_list:
         print("The language code is not in the list")
