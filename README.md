@@ -5,15 +5,15 @@ This is a github repository for Machine Learning labs with Python project in Dat
    git clone <repo_url>
    ``` 
 3. Create a new Conda environment:
-   ```bash
+   ```console
    conda create --name <your_env_name>
    ```
 4. Activate the newly created environment:
-   ```bash
+   ```console
    conda activate <your_env_name>
    ```
 6. Install the dependencies from the requirements.txt file:
-   ```bash
+   ```console
    conda install --file requirements.txt
    ```
 ## Files
