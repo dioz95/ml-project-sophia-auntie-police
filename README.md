@@ -1,21 +1,30 @@
 # ml-project-sophia-auntie-police
-This is a github repository for Machine Learning labs with Python project in Data Sciencetech Institute, Sophia batch A23
+This is a github repository for Machine Learning labs with Python project in Data Sciencetech Institute, Sophia batch A23. To be able to run this project, you can clone this repo and install all the required dependencies by following this procedure:
+1. Clone this repo:
+   ```console
+   git clone <repo_url>
+   ``` 
+3. Create a new Conda environment:
+   ```bash
+   conda create --name <your_env_name>
+   ```
+4. Activate the newly created environment:
+   ```bash
+   conda activate <your_env_name>
+   ```
+6. Install the dependencies from the requirements.txt file:
+   ```bash
+   conda install --file requirements.txt
+   ```
+## Files
+This project consists of several files:
+1. `books.csv` : Main dataset used in this project.
+2. `final_notebook.ipynb` : The complete data analysis, feature engineering, modelling, and result interpretation.
+3. `gbr_model_best_features.sav` : Best model from the modelling stage described in the `final_notebook.ipynb` file.
+4. `app.py` : Console app to demonstrate book's rating predictor model.
+5. `requirements.txt` : Required dependencies.
 
-Git basic tutorial:
-1. Make sure everything is work for you as described in clean it class.
-2. Clone this repository in your local computer.
-3. Open the project folder on the IDE
-4. Don't forget to run `git pull` everytime you open the project to make sure it updated.
-
-Collaborating with github:
-1. Always make a new branch when you want to add/modify something `git branch [branch-name]` and `git checkout [branch-name]`
-3. Add the file if you're sure it works by `git add [file-name]` for specific file or `git add .` for adding all file
-4. Commit changes by `git commit -m [your-message]`
-5. Push to main by `git push --set-upstream origin [branch-name]`
-6. Create pull request in GitHub
-7. Wait someone to approve your pull request, or you can skip if you're very sure of your work (not recommended).
-
-**If anyone feels these procedure is too complicated, you can just drag and drop your work inside the notebook folder. I will manage the file organization at the end.**
-
-# Update 24/11/2023
-Since I realized that someone found difficulties in loading the data, I provide the data `books.csv` that the alignment has been corrected inside the dataset folder. Feel free to use it and I hope `pd.read_csv()` should work.
+## How to execute this project
+1. After installing the required dependencies, you can visit `final_notebook.ipynb` and run all the cells. It might take some time to finish, due to the modelling stage, depending on your machine capabilities.
+2. Running `final_notebook.ipynb` will give `gbr_model_best_features.sav`, the saved model that can be used later in the deployment.
+3. To see the demo, run `python app.py` in your console and follow the instructions that appear on your screen to be able to see how the model can predict the book's rating based on the given input.
