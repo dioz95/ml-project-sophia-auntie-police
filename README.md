@@ -1,4 +1,4 @@
-# ml-project-sophia-auntie-police
+# Book's Rating Predictor Project
 This is a github repository for Machine Learning labs with Python project in Data Sciencetech Institute, Sophia batch A23. To be able to run this project, you can clone this repo and install all the required dependencies by following this procedure:
 1. Clone this repo:
    ```console
